@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Acerca de mi</title>
+    <style>
+        #caja1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 10px;
+        }
+        .img{
+            width: 300px;
+            height: auto;
+            transition: 0.3s;
+            margin-left: 10px;
+
+        }
+        h1{
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+        h3{
+            font-weight: bold;
+            margin: 10px;
+        }
+        p{
+            margin: 10px;
+        }
+        #eventos{
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="caja1">
+        <div id="eventos" style="max-width: 500px;">
+            <h1>Acerca de mi</h1>
+            <h3>Mi Animal Favorito</h3>
+            <p>Mi animal favorito son las aves en general y los perros, ya que siento que los perros son muy amigables y las aves 
+                me dan paz con el sonido de su canto. 
+            </p>
+            <img id="paz" class="img" src="peri.jpg" alt="esta es una imagen">
+
+            <div id="evento2" style="max-width: 500px;">
+                <h3>Comida Favorita</h3>
+                <p>Una de las comidas que me encanta y que disfruto mucho es la pizza suprema de la pizza hut!
+                    ¡Presiona una tecla para ordenarla tu también! :D
+                </p>
+                <img class="img" src="pz.jpg" alt="esta es una imagen">
+            </div>
+            <div id="evento3" style="max-width: 500px;">
+                <h3>Pelicula Favorita</h3>
+                <p>Desde mi infancia he sido fanatico de Toy Story, dentro de mi niñez a sido la pelicula que más me ha gustado y me 
+                </p>
+                <img class="img" src="pl.jpg" alt="esta es una imagen">
+                <audio id="audio" src="YS.mp3" muted="muted"></audio>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+   </script>
+</body>
+</html>
