@@ -6,10 +6,20 @@
     
     <title>Acerca de mi</title>
     <style>
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f7f7f7;
+        min-height: 100vh;
+        font-family: 'Arial', sans-serif;
+        }
+
         #caja1{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            background-color: #f7f7f7;
             margin: 10px;
         }
         .img{
@@ -59,8 +69,25 @@
                 <h3>Pelicula Favorita</h3>
                 <p>Desde mi infancia he sido fanatico de Toy Story, dentro de mi niñez a sido la pelicula que más me ha gustado y me 
                 </p>
-                <img class="img" src="pl.jpg" alt="esta es una imagen">
-                <audio id="audio" src="YS.mp3" muted="muted"></audio>
+                <img id="ty" class="img" src="pl.jpg" alt="esta es una imagen">
+            </div>
+            <div id="evento4" style="max-width: 500px;">
+                <h3>Cancion Favorita</h3>
+                <p>Me gusta las canciones en inglés y la siguiente es una de ellas</p>
+                <button id="btn">Presiona</button>
+                <audio id="aud">
+                    <source src="Never.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="evento5" style="max-width: 500px;">
+                <h3>Cancion Favorita</h3>
+                <p>San Romero es una persona que admiro por su liderazgo y su espirtu de perseverancia</p>
+                <img id="os" class="img" src="pr.jpeg" alt="esta es una imagen">                
+            </div>
+            <div id="evento6" style="max-width: 500px;">
+                <h3>País a visitar</h3>
+                <p>El pais que me gustaria visitar es Rusia, uno de los paises de primera potencia mundial</p>
+                <img id="rs" class="img" src="rs.jpg" alt="esta es una imagen">                
             </div>
         </div>
     </div>
